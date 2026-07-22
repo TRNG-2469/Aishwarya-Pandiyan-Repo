@@ -1,3 +1,5 @@
+package Monday;
+
 public class VerifyApp {
     public static void main(String[] args) {
         System.out.println("=== Environment Verification successful! ====");

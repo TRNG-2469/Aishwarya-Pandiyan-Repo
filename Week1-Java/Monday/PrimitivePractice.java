@@ -1,3 +1,5 @@
+package Monday;
+
 public class PrimitivePractice {
     public static void main(String[] args) {
 

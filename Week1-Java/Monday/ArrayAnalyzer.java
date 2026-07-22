@@ -1,3 +1,5 @@
+package Monday;
+
 import java.util.Random;
 
 public class ArrayAnalyzer {
