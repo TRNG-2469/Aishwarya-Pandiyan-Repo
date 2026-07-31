@@ -1,4 +1,6 @@
 package com.cohort.library;
 
-public class Borrowable {
+public interface Borrowable {
+    void borrowItem();
+    void returnItem();
 }
