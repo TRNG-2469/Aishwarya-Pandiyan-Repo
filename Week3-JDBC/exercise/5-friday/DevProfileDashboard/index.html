@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Profile & Progress Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">Aishwarya.dev</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#progress">Progress</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="about" class="card">
+    <h1>Aishwarya</h1>
+    <div class="avatar-wrap">
+        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150'><rect width='150' height='150' fill='%2338bdf8'/></svg>" alt="Profile picture placeholder">
+    </div>
+    <p>
+        I'm a <strong>Computer Science graduate</strong> building hands-on
+        skills in full stack development. My goal is to
+        <strong>strengthen my front-end fundamentals</strong> while deepening my
+        knowledge of backend systems and cloud tools.
+    </p>
+</section>
+
+<section id="progress" class="card">
+    <h2>Learning Progress</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Topic</th>
+            <th>Difficulty</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>HTML & CSS</td>
+            <td>Advanced</td>
+            <td><span class="badge badge-success">Completed</span></td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+            <td><span class="badge badge-success">Completed</span></td>
+        </tr>
+        <tr>
+            <td>SQL & JDBC</td>
+            <td>Intermediate</td>
+            <td><span class="badge badge-pending">Learning</span></td>
+        </tr>
+        <tr>
+            <td>Java & REST APIs</td>
+            <td>Advanced</td>
+            <td><span class="badge badge-pending">Learning</span></td>
+        </tr>
+        <tr>
+            <td>Cloud (AWS)</td>
+            <td>Advanced</td>
+            <td><span class="badge badge-todo">Not Started</span></td>
+        </tr>
+        <tr>
+            <td>System Design</td>
+            <td>Advanced</td>
+            <td><span class="badge badge-todo">Not Started</span></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="contact" class="card">
+    <h2>Contact Me</h2>
+    <form onsubmit="event.preventDefault(); alert('Message Sent!');">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="skill">Skill Level</label>
+        <select id="skill" name="skill">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Aishwarya. All rights reserved. <a href="#">Back to top</a></p>
+</footer>
+
+</body>
+</html>
